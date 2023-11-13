@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dashboard - NiceAdmin Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">NiceAdmin</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Kevin Anderson</h6>
+              <span>Web Designer</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-person"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="leads.html">
+          <i class="bi bi-person"></i>
+          <span>Leads</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="contacts.html">
+          <i class="bi bi-question-circle"></i>
+          <span>Contacts</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="accounts.html">
+          <i class="bi bi-envelope"></i>
+          <span>Accounts</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="company.html">
+          <i class="bi bi-card-list"></i>
+          <span>Company</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="chat.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Chat</span>
+        </a>
+      </li>
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Edit Lead</h5>
+
+        <!-- Multi Columns Form -->
+        <form class="row g-3" id="leadDetail">
+          <!-- title first_name last_name email phone status source address_line street city state postcode country website 
+            description assigned_to account_name opportunity_amount is_active enquiry_type tags contacts created_from_site teams 
+            company skype_ID industry organization probability close_date -->
+
+            <div class="col-md-3">
+              <label for="title" class="form-label">Title</label>
+              <input type="text" class="form-control" id="title" name="title" placeholder="Title">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="first_name" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="last_name" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="phone" class="form-label">Phone</label>
+              <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="status" class="form-label">Status</label>
+              <select id="status" name="status" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div>
+          
+          <div class="col-md-3">
+              <label for="source" class="form-label">Source</label>
+              <select id="source" name="source" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div>
+          
+          <div class="col-md-3">
+              <label for="address_line" class="form-label">Address Line</label>
+              <input type="text" class="form-control" id="address_line" name="address_line" placeholder="Address Line">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="street" class="form-label">Street</label>
+              <input type="text" class="form-control" id="street" name="street" placeholder="Street">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="city" class="form-label">City</label>
+              <input type="text" class="form-control" id="city" name="city" placeholder="City">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="state" class="form-label">State</label>
+              <input type="text" class="form-control" id="state" name="state" placeholder="State">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="postcode" class="form-label">Postcode</label>
+              <input type="text" class="form-control" id="postcode" name="postcode" placeholder="Postcode">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="country" class="form-label">Country</label>
+              <input type="text" class="form-control" id="country" name="country" placeholder="Country">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="website" class="form-label">Website</label>
+              <input type="text" class="form-control" id="website" name="website" placeholder="Website">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="description" class="form-label">Description</label>
+              <input type="text" class="form-control" id="description" name="description" placeholder="Description">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="assigned_to" class="form-label">Assigned To</label>
+              <select id="assigned_to" name="assigned_to" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div>
+          
+          <div class="col-md-3">
+              <label for="account_name" class="form-label">Account Name</label>
+              <select id="account_name" name="account_name" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div>
+          
+          <div class="col-md-3">
+              <label for="opportunity_amount" class="form-label">Opportunity Amount</label>
+              <input type="text" class="form-control" id="opportunity_amount" name="opportunity_amount" placeholder="Opportunity Amount">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="is_active" class="form-label">Is Active</label>
+              <input type="checkbox" class="form-check-input" id="is_active" name="is_active" placeholder="Is Active">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="enquiry_type" class="form-label">Enquiry Type</label>
+              <select id="enquiry_type" name="enquiry_type" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div>
+          
+          <div class="col-md-3">
+              <label for="tags" class="form-label">Tags</label>
+              <select id="tags" name="tags" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div>
+          
+          <div class="col-md-3">
+              <label for="contacts" class="form-label">Contacts</label>
+              <select id="contacts" name="contacts" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div>
+          
+          <div class="col-md-3">
+              <label for="created_from_site" class="form-label">Created From Site</label>
+              <input type="checkbox" class="form-check-input" id="created_from_site" name="created_from_site" placeholder="Created From Site">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="teams" class="form-label">Teams</label>
+              <select id="teams" name="teams" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div>
+          
+          <!-- <div class="col-md-3">
+              <label for="company" class="form-label">Company</label>
+              <select id="company" name="company" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div> -->
+          
+          <div class="col-md-3">
+              <label for="skype_ID" class="form-label">Skype ID</label>
+              <input type="text" class="form-control" id="skype_ID" name="skype_ID" placeholder="Skype ID">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="industry" class="form-label">Industry</label>
+              <select id="industry" name="industry" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div>
+          
+          <!-- <div class="col-md-3">
+              <label for="organization" class="form-label">Organization</label>
+              <select id="organization" name="organization" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+              </select>
+          </div> -->
+          
+          <div class="col-md-3">
+              <label for="probability" class="form-label">Probability</label>
+              <input type="text" class="form-control" id="probability" name="probability" placeholder="Probability">
+          </div>
+          
+          <div class="col-md-3">
+              <label for="close_date" class="form-label">Close Date</label>
+              <input type="date" class="form-control" id="close_date" name="close_date" placeholder="Close Date">
+          </div>
+          
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary" onclick="save()">Save</button>
+          </div>
+
+        </form><!-- End Multi Columns Form -->
+
+      </div>
+    </div>
+  </main>
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    const access_token = localStorage.access_token;
+    const headers = new Headers();
+    headers.set('Authorization', `Bearer ${access_token}`);
+    headers.set('org', 'f0d58ec1-eadc-4cbe-a636-f6878cb4ee8c');
+
+    const lead_id = new URLSearchParams(window.location.search).get('id');
+    if(lead_id != null){
+      fetch(`https://whatsappcrm.pythonanywhere.com/api/leads/${lead_id}/`, {headers})
+        .then(response => response.json())
+        .then(data => {
+          if(data.lead_obj.title != undefined)
+            document.getElementById('title').value = data.lead_obj.title;
+          if(data.lead_obj.first_name != undefined)
+            document.getElementById('first_name').value = data.lead_obj.first_name;
+          if(data.lead_obj.last_name != undefined)
+            document.getElementById('last_name').value = data.lead_obj.last_name;
+          if(data.lead_obj.email != undefined)
+            document.getElementById('email').value = data.lead_obj.email;
+          if(data.lead_obj.phone != undefined)
+            document.getElementById('phone').value = data.lead_obj.phone;
+          if(data.lead_obj.status != undefined)
+            document.getElementById('status').value = data.lead_obj.status;
+          if(data.lead_obj.source != undefined)
+            document.getElementById('source').value = data.lead_obj.source;
+          if(data.lead_obj.address_line != undefined)
+            document.getElementById('address_line').value = data.lead_obj.address_line;
+          if(data.lead_obj.street != undefined)
+            document.getElementById('street').value = data.lead_obj.street;
+          if(data.lead_obj.city != undefined)
+            document.getElementById('city').value = data.lead_obj.city;
+          if(data.lead_obj.state != undefined)
+            document.getElementById('state').value = data.lead_obj.state;
+          if(data.lead_obj.postcode != undefined)
+            document.getElementById('postcode').value = data.lead_obj.postcode;
+          if(data.lead_obj.country != undefined)
+            document.getElementById('country').value = data.lead_obj.country;
+          if(data.lead_obj.website != undefined)
+            document.getElementById('website').value = data.lead_obj.website;
+          if(data.lead_obj.description != undefined)
+            document.getElementById('description').value = data.lead_obj.description;
+          if(data.lead_obj.assigned_to != undefined)
+            document.getElementById('assigned_to').value = data.lead_obj.assigned_to;
+          if(data.lead_obj.account_name != undefined)
+            document.getElementById('account_name').value = data.lead_obj.account_name;
+          if(data.lead_obj.opportunity_amount != undefined)
+            document.getElementById('opportunity_amount').value = data.lead_obj.opportunity_amount;
+          if(data.lead_obj.is_active != undefined)
+            document.getElementById('is_active').checked = data.lead_obj.is_active;
+          if(data.lead_obj.enquiry_type != undefined)
+            document.getElementById('enquiry_type').value = data.lead_obj.enquiry_type;
+          if(data.lead_obj.tags != undefined)
+            document.getElementById('tags').value = data.lead_obj.tags;
+          if(data.lead_obj.contacts != undefined)
+            document.getElementById('contacts').value = data.lead_obj.contacts;
+          if(data.lead_obj.created_from_site != undefined)
+            document.getElementById('created_from_site').checked = data.lead_obj.created_from_site;
+          if(data.lead_obj.teams != undefined)
+            document.getElementById('teams').value = data.lead_obj.teams;
+          if(data.lead_obj.company != undefined)
+            document.getElementById('company').value = data.lead_obj.company;
+          if(data.lead_obj.skype_ID != undefined)
+            document.getElementById('skype_ID').value = data.lead_obj.skype_ID;
+          if(data.lead_obj.industry != undefined)
+            document.getElementById('industry').value = data.lead_obj.industry;
+          if(data.lead_obj.organization != undefined)
+            document.getElementById('organization').value = data.lead_obj.organization;
+          if(data.lead_obj.probability != undefined)
+            document.getElementById('probability').value = data.lead_obj.probability;
+          if(data.lead_obj.close_date != undefined)
+            document.getElementById('close_date').value = data.lead_obj.close_date;
+        })
+      }
+
+
+    function save() {
+      const lead_id = new URLSearchParams(window.location.search).get('id');
+      console.log("This is", lead_id);
+      var form = document.querySelector('#leadDetail');
+      console.log(document.querySelector('#leadDetail'));
+      alert("Lead Updated Successfully");
+      const formData = new FormData(form);
+      
+      const request = new Request(`https://whatsappcrm.pythonanywhere.com/api/leads/${lead_id}/`, {
+        headers,
+        method: 'PUT',
+        body: formData,
+      });
+
+      console.log(formData)     
+      const response = fetch(request);
+      if (response.status === 200) {
+        console.log('Message sent!');
+        
+      } else {
+        console.error('Message not sent!');
+        alert(response.statusText)
+        console.error(response.statusText);
+      }
+    }
+  </script>
+
+</body>
+
+</html>
