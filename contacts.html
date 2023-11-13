@@ -367,8 +367,10 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
-
     const access_token = localStorage.access_token;
+    if(access_token == null){
+      window.location.href = "login.html";
+    }
     console.log("access_token" + access_token);
     const headers = new Headers();
     headers.set('Authorization', `Bearer ${access_token}`);

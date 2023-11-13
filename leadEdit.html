@@ -539,6 +539,9 @@
   <script src="assets/js/main.js"></script>
   <script>
     const access_token = localStorage.access_token;
+    if(access_token == null){
+      window.location.href = "login.html";
+    }
     const headers = new Headers();
     headers.set('Authorization', `Bearer ${access_token}`);
     headers.set('org', 'f0d58ec1-eadc-4cbe-a636-f6878cb4ee8c');
