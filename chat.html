@@ -412,7 +412,8 @@
   <script>
     // Get Messages in every 5 sec
     function fetchStatus() {
-      var contact = document.cookie.split(';')[1].split('=')[1];
+      var contact = document.cookie.split(';').split('=')[1];
+      // var contact = document.cookie.split(';')[1].split('=')[1];
         
       fetch('https://whatsappcrm.pythonanywhere.com/api/chat/messages/?contact=' + contact)
         .then(function (response) {
